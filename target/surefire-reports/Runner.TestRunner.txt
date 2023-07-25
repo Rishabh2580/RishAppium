@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.303 s <<< FAILURE! - in Runner.TestRunner
+feature(Runner.TestRunner)  Time elapsed: 1.106 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screen.Screen1._continue to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+Caused by: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screen.Screen1._continue to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+
+feature(Runner.TestRunner)  Time elapsed: 0.151 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screen.Screen2.profile to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+Caused by: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screen.Screen2.profile to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+
+stopAppium(Runner.TestRunner)  Time elapsed: 0.377 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Runner.TestRunner.stopAppium(TestRunner.java:65)
+

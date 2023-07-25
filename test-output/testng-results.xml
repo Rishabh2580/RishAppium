@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-03T14:08:18 IST" name="Default suite" finished-at="2022-12-03T14:10:48 IST" duration-ms="150768">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2dc54ad4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-03T14:08:18 IST" name="Default test" finished-at="2022-12-03T14:10:48 IST" duration-ms="150768">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="startAppium()[pri:0, instance:Runner.TestRunner@2dc54ad4]" started-at="2022-12-03T14:08:05 IST" name="startAppium" finished-at="2022-12-03T14:08:18 IST" duration-ms="12790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner@2dc54ad4]" started-at="2022-12-03T14:08:18 IST" name="setUpClass" finished-at="2022-12-03T14:08:18 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2dc54ad4]" started-at="2022-12-03T14:08:18 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-03T14:09:58 IST" duration-ms="99301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify workindia app functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@2dc54ad4]" started-at="2022-12-03T14:09:58 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-03T14:10:48 IST" duration-ms="50688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify workindia app functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@2dc54ad4]" started-at="2022-12-03T14:10:48 IST" name="tearDownClass" finished-at="2022-12-03T14:10:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopAppium()[pri:0, instance:Runner.TestRunner@2dc54ad4]" started-at="2022-12-03T14:10:48 IST" name="stopAppium" finished-at="2022-12-03T14:10:49 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
